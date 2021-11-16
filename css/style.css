@@ -204,4 +204,6 @@ footer {
     text-shadow: 1px 1px black; }
   .sizeForm {
     font-weight: normal;
+    width: 100%; }
+  .sizeCarousel {
     width: 100%; } }
