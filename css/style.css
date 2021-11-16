@@ -4,6 +4,8 @@
   box-sizing: border-box; }
 
 body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices // de Bootstrap */
   padding-top: 3.5rem;
   /* viene de Bootstrap*/
   font-family: 'Baloo Chettan 2', cursive;
