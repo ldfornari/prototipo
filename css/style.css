@@ -4,8 +4,6 @@
   box-sizing: border-box; }
 
 body {
-  overflow-x: hidden;
-  /* Prevent scroll on narrow devices // de Bootstrap */
   padding-top: 3.5rem;
   /* viene de Bootstrap*/
   font-family: 'Baloo Chettan 2', cursive;
@@ -162,7 +160,7 @@ footer {
   .prod {
     width: 60%; }
   .sizeCarousel {
-    width: 60%; } }
+    width: 100%; } }
 
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
