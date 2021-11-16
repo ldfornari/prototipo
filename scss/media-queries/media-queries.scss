@@ -26,6 +26,7 @@
       }
     }
     .offcanvas-collapse.open {
+      position: absolute !important;
       visibility: visible;
       transform: translateX(-100%);
     }

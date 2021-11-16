@@ -179,6 +179,7 @@ footer {
     .offcanvas-collapse li {
       padding: 0 1.2rem; }
   .offcanvas-collapse.open {
+    position: absolute !important;
     visibility: visible;
     transform: translateX(-100%); }
   .prod {
