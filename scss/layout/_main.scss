@@ -1,0 +1,99 @@
+//--comienzo sección index
+.alinCarousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.sizeCarousel{
+    width: 80%;
+    height: auto;
+
+    & IMG{
+        border-radius: 8%;
+        border: 2.5px solid $black;
+    }
+}
+.textCarousel{
+    color: $black;
+    font-weight: bold;
+    text-align: center;
+    //text-shadow: 1.2px 1.2px $white;
+}
+.carousel-control-next, .carousel-control-prev{
+    bottom: -3.5rem;
+    opacity: 1;    
+}
+.carousel-indicators{
+    margin-bottom: -3rem;
+}
+//----fin sección index
+
+//----comienzo sección nosotros
+    
+.pNosotros{
+    font-size: 1.3rem;
+    text-align: justify;
+    color: $black;
+    background-color: $bgNosotros;
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 5%;
+    border: 2.5px solid $black;
+    width: 70%;
+}
+.letraNosotros{
+    font-family: 'Baloo Chettan 2',  cursive;
+    text-shadow: 2px 2px $black;
+    font-size: 1.6rem;
+    color: $orange;
+}
+//------fin seccion nosotros
+
+
+
+
+//----comienzo sección contacto
+
+.sizeForm{
+    background-color:$orange;
+    border-radius: 2%;
+    border: 2px solid $black;
+    font-weight: bold;
+    padding: 1rem;
+    width: 60%;
+}
+
+
+//------fin seccion contacto
+
+
+//------comenzo sección productos
+.prod{
+    width: 100%;
+}
+
+.card{
+    border-radius: 1rem;
+    & IMG{
+        width: 100%;
+        border-radius: 1rem;
+        border: 2px solid $black;
+    }
+    & h4{
+        border-bottom: 1px solid $black;
+        padding-bottom: .5rem;
+        text-shadow: 1px 1px $grey;
+    }
+    li{
+        list-style: none;
+    }
+    .card-text{
+        font-weight: bold;
+    }
+}
+.album{
+    border-radius: 1.5rem;
+}
+
+//------fin seccion productos

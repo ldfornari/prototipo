@@ -1,0 +1,52 @@
+@media (min-width: 992px) {
+  .prod{
+    width: 60%;
+  }
+  .sizeCarousel{
+    width: 60%;
+  }
+}
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      left: 100%;
+      top: 6.5rem;
+      width: 10rem;
+      height: 300px;
+     // padding-right: 1rem;
+     // padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color:$black;
+      transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      & li{
+        padding: 0 1.2rem;
+      }
+    }
+    .offcanvas-collapse.open {
+      visibility: visible;
+      transform: translateX(-100%);
+    }
+    .prod{
+      width: 70%;
+      font-size: small;
+    }
+  
+  }
+  @media (max-width: 767.98px) {
+    .carousel-control-next, .carousel-control-prev{
+      bottom: -5.5rem;
+      opacity: 1;    
+  }
+
+    .prod{
+      width: 100%;
+      font-size: x-small;
+      li{
+        font-size: x-small;
+      }
+  }
+  }
+  
