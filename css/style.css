@@ -199,4 +199,7 @@ footer {
     font-size: 1rem; }
   .letraNosotros {
     font-size: 1rem;
-    text-shadow: 1px 1px black; } }
+    text-shadow: 1px 1px black; }
+  .sizeForm {
+    font-weight: normal;
+    width: 100%; } }
