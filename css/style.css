@@ -110,14 +110,6 @@ header li a {
   font-size: 1.6rem;
   color: #e47317; }
 
-.sizeForm {
-  background-color: #e47317;
-  border-radius: 2%;
-  border: 2px solid black;
-  font-weight: bold;
-  padding: 1rem;
-  width: 60%; }
-
 .prod {
   width: 100%; }
 
@@ -138,6 +130,25 @@ header li a {
 
 .album {
   border-radius: 1.5rem; }
+
+.manuales {
+  width: 50%;
+  background-color: #e47317;
+  border-radius: 5%;
+  border: 2px solid black;
+  padding: 1rem;
+  width: 60%; }
+
+.imgDescargas {
+  width: 4rem !important; }
+
+.sizeForm {
+  background-color: #e47317;
+  border-radius: 2%;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 1rem;
+  width: 60%; }
 
 footer {
   background-color: black;

@@ -49,29 +49,10 @@
 }
 //------fin seccion nosotros
 
-
-
-
-//----comienzo sección contacto
-
-.sizeForm{
-    background-color:$orange;
-    border-radius: 2%;
-    border: 2px solid $black;
-    font-weight: bold;
-    padding: 1rem;
-    width: 60%;
-}
-
-
-//------fin seccion contacto
-
-
 //------comenzo sección productos
 .prod{
     width: 100%;
 }
-
 .card{
     border-radius: 1rem;
     & IMG{
@@ -96,3 +77,38 @@
 }
 
 //------fin seccion productos
+
+//----comienzo sección manuales
+
+.manuales{
+    width: 50%;
+    background-color:$orange;
+    border-radius: 5%;
+    border: 2px solid $black;
+    
+    padding: 1rem;
+    width: 60%;
+}
+.imgDescargas{
+    width: 4rem !important;
+}
+
+//------fin seccion manuales
+
+
+
+
+
+//----comienzo sección contacto
+
+.sizeForm{
+    background-color:$orange;
+    border-radius: 2%;
+    border: 2px solid $black;
+    font-weight: bold;
+    padding: 1rem;
+    width: 60%;
+}
+
+
+//------fin seccion contacto
