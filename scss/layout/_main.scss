@@ -8,9 +8,8 @@
 .sizeCarousel{
     width: 80%;
     height: auto;
-
     & IMG{
-        border-radius: 8%;
+        border-radius: 1.5rem;
         border: 2.5px solid $black;
     }
 }
@@ -38,7 +37,7 @@
     margin: 1rem;
     padding: 1.5rem;
     border: 2.5px solid $black;
-    border-radius: 3%;
+    border-radius: 1.5rem;
     width: 70%;
 }
 .letraNosotros{
@@ -56,11 +55,14 @@
 .card{
     border-radius: 1rem;
     align-items: center;
-    //text-align: center;
     & IMG{
-        width: 100%;
+        width: 95%;
         border-radius: 1rem;
         border: 2px solid $black;
+        margin: 2.5%;
+    }
+    & .imgDescargas{
+        margin-top: .7rem;
     }
     & h4{
         border-bottom: 1px solid $black;
@@ -76,8 +78,23 @@
 }
 .album{
     border-radius: 1.5rem;
-   // margin-bottom: 3rem;
-
+    width: 70%;
+}
+.btn{
+    color: $white;
+    background-color: $grey;
+}
+.btn-outline-secondary:hover{
+    color: $black !important;
+    background-color: $orange !important;
+}
+.comprar{
+    color: $white;
+    background-color: $red;
+}
+.btn-outline-warning:hover{
+    color: $red !important;
+    background-color: $Yellow !important;
 }
 
 //------fin seccion productos
@@ -88,26 +105,17 @@
     width: 90%;
     background-color:$orange;
     border-radius: 5%;
-    border: 2px solid $black;
-    
+    border: 2px solid $black;    
     padding: 1rem;
     width: 60%;
 }
-.imgDescargas{
-    width: 4rem !important;
-}
-
 //------fin seccion manuales
-
-
-
-
 
 //----comienzo sección contacto
 
 .sizeForm{
     background-color:$orange;
-    border-radius: 2%;
+    border-radius: 1.5rem;
     border: 2px solid $black;
     font-weight: bold;
     padding: 1rem;

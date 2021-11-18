@@ -1,6 +1,6 @@
 @media (min-width: 992px) {
   .prod{
-    width: 60%;
+    width: 50%;
   }
   .sizeCarousel{
     width: 70%;
@@ -34,10 +34,10 @@
     visibility: visible;
     transform: translateX(-100%);
   }
-    .prod{
-      width: 70%;
-      font-size: medium;
-    }
+  .prod{
+    width: 70%;
+    font-size: medium;
+  }
 }
 
 @media (max-width: 767.98px) { 
