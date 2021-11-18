@@ -69,7 +69,7 @@ header li a {
 .active {
   color: white !important; }
 
-.alinCarousel {
+.alinear {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +115,8 @@ header li a {
 
 .card {
   border-radius: 1rem;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
   .card IMG {
     width: 100%;
     border-radius: 1rem;
@@ -172,7 +173,9 @@ footer {
   .prod {
     width: 60%; }
   .sizeCarousel {
-    width: 70%; } }
+    width: 70%; }
+  .sizeDescargas {
+    width: 100% !important; } }
 
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
