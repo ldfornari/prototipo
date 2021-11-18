@@ -115,8 +115,7 @@ header li a {
 
 .card {
   border-radius: 1rem;
-  align-items: center;
-  text-align: center; }
+  align-items: center; }
   .card IMG {
     width: 100%;
     border-radius: 1rem;
