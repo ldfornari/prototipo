@@ -80,19 +80,19 @@
     border-radius: 1.5rem;
     width: 70%;
 }
-.btn{
+.btn{ //ver más
     color: $white;
-    background-color: $grey;
+    background-color: $orange;
 }
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover{ //ver más
     color: $black !important;
-    background-color: $orange !important;
+    background-color: $grey !important;
 }
-.comprar{
+.comprar{ //comprar
     color: $white;
     background-color: $red;
 }
-.btn-outline-warning:hover{
+.btn-outline-warning:hover{ //comprar
     color: $red !important;
     background-color: $Yellow !important;
 }

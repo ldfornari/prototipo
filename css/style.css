@@ -138,11 +138,11 @@ header li a {
 
 .btn {
   color: white;
-  background-color: grey; }
+  background-color: #e47317; }
 
 .btn-outline-secondary:hover {
   color: black !important;
-  background-color: #e47317 !important; }
+  background-color: grey !important; }
 
 .comprar {
   color: white;
