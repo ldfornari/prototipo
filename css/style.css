@@ -134,7 +134,7 @@ header li a {
 
 .album {
   border-radius: 1.5rem;
-  width: 70%; }
+  width: 100%; }
 
 .btn {
   color: white;
@@ -187,7 +187,7 @@ footer {
 
 @media (min-width: 992px) {
   .prod {
-    width: 50%; }
+    width: 80%; }
   .sizeCarousel {
     width: 70%; }
   .sizeDescargas {
