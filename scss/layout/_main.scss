@@ -16,7 +16,6 @@
     color: $black;
     font-weight: bold;
     text-align: center;
-    text-shadow: 1.2px 1.2px $white;
 }
 .carousel-control-next, .carousel-control-prev{
     bottom: -3.5rem;
@@ -47,36 +46,33 @@
 //------fin seccion nosotros
 
 //------comenzo sección productos
-.prod{
-    width: 100%;
-}
-.card{
-    border-radius: 1rem;
-    align-items: center;
-    & IMG{
-        width: 95%;
-        border-radius: 1rem;
-        border: 2px solid $black;
-        margin: 2.5%;
-    }
-    & .imgDescargas{
-        margin-top: .7rem;
-    }
-    & h4{
-        border-bottom: 1px solid $black;
-        padding-bottom: .5rem;
-        text-shadow: 1px 1px $grey;
-    }
-    li{
-        list-style: none;
-    }
-    .card-text{
-        font-weight: bold;
-    }
-}
 .album{
     border-radius: 1.5rem;
     width: 100%;
+    & .card{
+        border-radius: 1rem;
+        align-items: center;
+        & IMG{
+            width: 95%;
+            border-radius: 1rem;
+            border: 2px solid $black;
+            margin: 2.5%;
+        }
+        & .imgDescargas{
+            margin-top: .7rem;
+        }
+        & h4{
+            border-bottom: 1px solid $black;
+            padding-bottom: .5rem;
+            text-shadow: 1px 1px $grey;
+        }
+        li{
+            list-style: none;
+        }
+        .card-text{
+            font-weight: bold;
+        }
+    }
 }
 .btn{ //ver más
     color: $white;

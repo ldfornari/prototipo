@@ -4,6 +4,8 @@
   box-sizing: border-box; }
 
 body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices // de Bootstrap */
   padding-top: 3.5rem;
   /* viene de Bootstrap*/
   font-family: 'Baloo Chettan 2', cursive;
@@ -76,8 +78,7 @@ header li a {
   padding-bottom: 4rem; }
 
 .sizeCarousel {
-  width: 80%;
-  height: auto; }
+  width: 80%; }
   .sizeCarousel IMG {
     border-radius: 1.5rem;
     border: 2.5px solid black; }
@@ -105,36 +106,31 @@ header li a {
   width: 70%; }
 
 .letraNosotros {
-  font-family: 'Baloo Chettan 2',  cursive;
   text-shadow: 2px 2px black;
   font-size: 1.6rem;
   color: #e47317; }
 
-.prod {
-  width: 100%; }
-
-.card {
-  border-radius: 1rem;
-  align-items: center; }
-  .card IMG {
-    width: 95%;
-    border-radius: 1rem;
-    border: 2px solid black;
-    margin: 2.5%; }
-  .card .imgDescargas {
-    margin-top: .7rem; }
-  .card h4 {
-    border-bottom: 1px solid black;
-    padding-bottom: .5rem;
-    text-shadow: 1px 1px grey; }
-  .card li {
-    list-style: none; }
-  .card .card-text {
-    font-weight: bold; }
-
 .album {
   border-radius: 1.5rem;
   width: 100%; }
+  .album .card {
+    border-radius: 1rem;
+    align-items: center; }
+    .album .card IMG {
+      width: 95%;
+      border-radius: 1rem;
+      border: 2px solid black;
+      margin: 2.5%; }
+    .album .card .imgDescargas {
+      margin-top: .7rem; }
+    .album .card h4 {
+      border-bottom: 1px solid black;
+      padding-bottom: .5rem;
+      text-shadow: 1px 1px grey; }
+    .album .card li {
+      list-style: none; }
+    .album .card .card-text {
+      font-weight: bold; }
 
 .btn {
   color: white;
@@ -175,15 +171,15 @@ footer {
   height: 7rem;
   padding-top: .5rem;
   text-align: center; }
-  footer img {
-    border-radius: 20%; }
-    footer img:hover {
-      width: 25px;
-      transition: all .1s ease-in-out; }
-  footer .pFooter {
+  footer p {
     font-size: x-small; }
-  footer .h4Footer {
+  footer h4 {
     font-size: small; }
+  footer img {
+    border-radius: .45rem; }
+    footer img:hover {
+      width: 1.7rem;
+      transition: all .1s ease-in-out; }
 
 @media (min-width: 992px) {
   .prod {
