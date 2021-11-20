@@ -1,6 +1,6 @@
 @media (min-width: 992px) {
   .prod{
-    width: 80%;
+    width: 50%;
   }
   .sizeCarousel{
     width: 70%;
@@ -38,12 +38,21 @@
     width: 70%;
     font-size: medium;
   }
+  .sizeCarousel{
+    width: 80%;
+  }
 }
 
 @media (max-width: 767.98px) { 
-  .carousel-control-next, .carousel-control-prev{
-    bottom: -5.5rem;
-    opacity: 1;    
+  .alinear{
+    width: 100%;
+    & .sizeCaousel{
+      width: 100%;
+    }
+    & .carousel-control-next, .carousel-control-prev{
+      bottom: -3rem;
+      opacity: 1;    
+    }
   }
   .prod{
     width: 100%;
@@ -63,8 +72,5 @@
   .sizeForm{
     font-weight: normal;
     width: 100%;
-  }
-  .sizeCarousel{
-    width: 100%;
-  }
+  }  
 }

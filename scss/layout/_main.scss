@@ -1,49 +1,47 @@
+@mixin format ($with, $background-color, $border-radius,$border, $padding){  //se usa en pNosotros y form contactos //
+    width: $with;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    border: $border;
+    padding: $padding;
+}
+
 //--comienzo sección index
 .alinear{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 4rem;
-}
-.sizeCarousel{
-    width: 80%;
-        & IMG{
+    & .textCarousel{
+        color: $black;
+        font-weight: bold;
+        text-align: center;
+    }
+    & .carousel-indicators, .carousel-control-next, .carousel-control-prev{
+        margin-bottom: -3rem;
+     }
+     & IMG{
         border-radius: 1.5rem;
         border: 2.5px solid $black;
-    }
-}
-.textCarousel{
-    color: $black;
-    font-weight: bold;
-    text-align: center;
-}
-.carousel-control-next, .carousel-control-prev{
-    bottom: -3.5rem;
-    opacity: 1;    
-}
-.carousel-indicators{
-    margin-bottom: -3rem;
+        }
 }
 //----fin sección index
 
 //----comienzo sección nosotros
     
 .pNosotros{
+    @include format(70%, $bgNosotros, 1.5rem, 2.5px solid $black, 1.5rem);
     font-size: 1.3rem;
-    color: $black;
-    background-color: $bgNosotros;
-    margin: 1rem;
-    padding: 1.5rem;
-    border: 2.5px solid $black;
-    border-radius: 1.5rem;
-    width: 70%;
+    color: $black;    
+    margin: 1rem;   
 }
 .letraNosotros{
     text-shadow: 2px 2px $black;
     font-size: 1.6rem;
     color: $orange;
 }
-//------fin seccion nosotros
+//------fin sección nosotros
 
 //------comenzo sección productos
 .album{
@@ -58,9 +56,6 @@
             border: 2px solid $black;
             margin: 2.5%;
         }
-        & .imgDescargas{
-            margin-top: .7rem;
-        }
         & h4{
             border-bottom: 1px solid $black;
             padding-bottom: .5rem;
@@ -69,52 +64,42 @@
         li{
             list-style: none;
         }
-        .card-text{
+        & .card-text{
             font-weight: bold;
+        }
+        & .btn{ //ver más
+            color: $white;
+            background-color: $gray;
+        }
+        & .btn-outline-secondary:hover{ //ver más
+            color: $white !important;
+            background-color: $grey !important;
+        }
+        & .comprar{ //comprar
+            color: $white;
+            background-color: $red;
+        }
+        & .btn-outline-warning:hover{ //comprar
+            color: $red !important;
+            background-color: $Yellow !important;
         }
     }
 }
-.btn{ //ver más
-    color: $white;
-    background-color: $gray;
-}
-.btn-outline-secondary:hover{ //ver más
-    color: $white !important;
-    background-color: $grey !important;
-}
-.comprar{ //comprar
-    color: $white;
-    background-color: $red;
-}
-.btn-outline-warning:hover{ //comprar
-    color: $red !important;
-    background-color: $Yellow !important;
-}
+//------fin sección productos
 
-//------fin seccion productos
 
-//----comienzo sección manuales
+//----comienzo sección descargas
 
-.manuales{
-    width: 90%;
-    background-color:$orange;
-    border-radius: 5%;
-    border: 2px solid $black;    
-    padding: 1rem;
-    width: 60%;
+.imgDescargas{
+    margin-top: 100px;
 }
-//------fin seccion manuales
+//------fin sección descargas
+
 
 //----comienzo sección contacto
 
 .sizeForm{
-    background-color:$orange;
-    border-radius: 1.5rem;
-    border: 2px solid $black;
-    font-weight: bold;
-    padding: 1rem;
-    width: 60%;
+    @include format(60%, $orange, 1.5rem, 2px solid $black, 1rem);
+    font-weight: bold;    
 }
-
-
-//------fin seccion contacto
+//------fin sección contacto
