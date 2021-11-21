@@ -1,0 +1,7 @@
+@mixin format ($with, $background-color, $border-radius,$border, $padding){  //se usa en pNosotros y form contactos //
+    width: $with;
+    background-color: $background-color;
+    border-radius: $border-radius;
+    border: $border;
+    padding: $padding;
+}
